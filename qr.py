@@ -53,7 +53,7 @@ root = tk.Tk()
 root.title("Generator QR pentru rețea Wi-Fi")
 
 # Setare dimensiuni fereastra
-root.geometry("400x400")
+root.geometry("400x600")
 
 # Eticheta pentru nume rețea Wi-Fi
 ssid_label = tk.Label(root, text="Nume rețea Wi-Fi:")
@@ -78,7 +78,7 @@ security_var.set("WPA2")
 security_label = tk.Label(root, text="Tipul de securitate:")
 security_label.pack()
 
-security_option_menu = tk.OptionMenu(root, security_var, "WEP", "WPA", "WPA2", "nopass")
+security_option_menu = tk.OptionMenu(root, security_var, "WEP", "WPA2", "nopass")
 security_option_menu.pack()
 
 # Buton pentru generarea codului QR
