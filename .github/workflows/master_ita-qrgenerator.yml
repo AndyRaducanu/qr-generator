@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'ita-qrgenerator'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_00223307262D43A29DF232FCE10E1180 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0AEDE52F78A1427F9867610AFB7B894A }}
